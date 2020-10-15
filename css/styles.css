@@ -1,0 +1,74 @@
+/* body {
+  background-color: #2f303a;
+  color: pink;
+}
+h1 {
+  position: absolute;
+  width: 696px;
+  height: 120px;
+  left: 452px;
+  top: 280px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+.CompanyValues {
+  background-color: #ffffff;
+}
+.logo {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+}
+.web {
+  color: #2196f3;
+}
+footer {
+  position: absolute;
+  width: 1600px;
+  height: 252px;
+  left: 0px;
+  top: 2097px;
+  background: #2f303a;
+}
+address {
+  color: #72eb35;
+}
+.lorem {
+  color: #72eb35;
+} */
+body {
+  background-color: tomato;
+}
+
+.section-title {
+  color: rgb(157, 218, 238);
+}
+
+h1 {
+  background-color: yellow;
+  color: blueviolet;
+}
+a {
+  color: red;
+}
+a:hover,
+a:focus {
+  color: royalblue;
+}
+button {
+  background-color: tomato;
+}
+button:hover {
+  color: palevioletred;
+  background-color: inherit;
+}
