@@ -4,147 +4,110 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>MyResume</title>
+  <title>WebStudio</title>
+  <link rel="stylesheet" href="reset.css">
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./css/styles.css" />
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet" />
 </head>
 
 <body>
-  <!--Main container-->
-
-  <div class="wrapper">
-    <aside class="sidebar">
-      <img class="my-photo" src="./img/me.jpg" alt="My photo" />
-
-      <!--Contacts container-->
-      <div class="contacts-container">
-        <h3>Contacts</h3>
-        <div>
-          <span class="contacts-letter">C:</span>
-          <a class="contacts-link" href="tel:380978320877">+38 097 832 08 77</a>
-        </div>
-        <div>
-          <span class="contacts-letter">E:</span>
-          <a class="contacts-link" href="mailto: bohdan.timko@gmail.com">bohdan.timko@gmail.com</a>
-        </div>
-      </div>
-      <!-- Tech skills container -->
-      <div class="tech-skills-container">
-        <h3 class="tech-skills-title">Tech Skills</h3>
-        <ul>
-          <li class="techskill1"><span class="techskills-text">HTML5</span></li>
-          <li class="techskill1"><span class="techskills-text">CSS3</span></li>
-          <li class="techskill1"><span class="techskills-text">GIT</span></li>
-          <li class="techskill1"><span class="techskills-text">WebPack</span></li>
-          <li class="techskill1"><span class="techskills-text">JavaScript</span></li>
-          <li class="techskill1"><span class="techskills-text">React.js</span></li>
-          <li class="techskill1"><span class="techskills-text">Node.js</span></li>
-        </ul>
-      </div>
-      <!-- Softskills container -->
-      <div class="softskills-container">
-        <h3 class="softskills-title">Soft Skills</h3>
-        <ul>
-          <li class="softskills1"><span class="softskills-text">Scrum </span></li>
-          <li class="softskills1"><span class="softskills-text">Agile </span></li>
-          <li class="softskills1"><span class="softskills-text">GTD </span></li>
-          <li class="softskills1"><span class="softskills-text">Teamwork</span></li>
-          <li class="softskills1"><span class="softskills-text">Responsibilitie</span></li>
-          <li class="softskills1"><span class="softskills-text">Stress resistance</span></li>
-        </ul>
-      </div>
-    </aside>
-
-    <!--Info about me-->
-    <div class="about-me-container">
-      <!--About me main info-->
-      <div class="info-conntainer">
-        <h2 class="Profession">Front-End Developer</h2>
-        <h1 class="name">Bohdan Timko</h1>
-        <p class="description">
-          I am a self-motivated and result-oriented person. I really know what I need from my life, friends, and
-          colleagues. I Believe that there are no unresolvable tasks duties and problems. And I'm really assured in
-          that thing that someday and somehow I'll reach all of my objectives.
-        </p>
-      </div>
-
-      <!--Projects container-->
-      <div class="proj-container">
-        <h3 class="my-container-title">Projects</h3>
-        <ol>
-          <li class="item-no">
-            <a class="proj-class" href="https://lovecamp.goit.ua/">https://lovecamp.goit.ua/</a>
-            <span class="dots">...................</span>
-            <span class="tech-name"><b>[</b> HTML5, CSS3 <b>]</b></span>
-          </li>
-          <li class="item-no">
-            <a class="proj-class" href="https://cryptohub.goit.ua/">https://cryptohub.goit.ua/</a>
-            <span class="dots">..................</span>
-            <span class="tech-name"><b>[</b> JavaScript <b>]</b></span>
-          </li>
-          <li class="item-no">
-            <a class="proj-class" href="https://kidslike.goit.co.ua/">https://kidslike.goit.co.ua/</a>
-            <span class="dots">..................</span>
-            <span class="tech-name"><b>[</b> React.js, Node.js <b>]</b></span>
-          </li>
-        </ol>
-      </div>
-
-      <!--Work Experience-->
-      <div>
-        <h3 class="my-container-title">Work Experience</h3>
-
-        <!--company 1-->
-        <div>
-          <h4 class="prof-title"><span class="prof-color">QAE</span> Oberbeton Invest</h4>
-          <span class="work-period">November 2090 - up to now <span class="line">|</span> Ukraine</span>
-          <ul class="responsibilities">
-            <li>Establish and Maintain Quality Managemen.</li>
-            <li>Develop and Monitor Performance Metrics for All Stages of the Production Process.</li>
-            <li>Inspect the Quality of Raw Production Materials</li>
-            <li>Run Various Tests on Finished Products</li>
-            <li>Determine Root Cause of Faulty Products</li>
-          </ul>
-        </div>
-
-        <!--company 2-->
-        <div>
-          <h4 class="prof-title"><span class="prof-color">Front-End Developer</span> Freelance</h4>
-          <span class="work-period">July 2020 - up to now <span class="line">|</span> Ukraine</span>
-          <ul class="responsibilities">
-            <li>Finished online marathon in GO_IT company.</li>
-            <li>Reached my first Front-End Development experience.</li>
-            <li>Created my first WEB page</li>
-            <li>Finished my first Softskills test.</li>
-            <li>Completed my own great Achievement</li>
-          </ul>
-        </div>
-
-        <!--company 3-->
-        <div>
-          <h4 class="prof-title"><span class="prof-color">QAE</span> FAIVELEY TRANSPORT CZECH A.S.</h4>
-          <span class="work-period">August 2017 -August 2019 <span class="line">|</span> Ukraine</span>
-          <ul class="responsibilities">
-            <li>Establish and Maintain Quality Managemen</li>
-            <li>Develop and Monitor Performance Metrics for All Stages of the Production Process</li>
-            <li>Inspect the Quality of Raw Production Materials</li>
-            <li>Run Various Tests on Finished Products</li>
-            <li>Determine Root Cause of Faulty Products</li>
-            <li>Manage qality of suppliers</li>
-            <li>Measure of different parts on 3D arm, create 3d models of parts.</li>
-          </ul>
-        </div>
-      </div>
-
-      <!-- Education container -->
-      <div>
-        <h3 class="my-container-title">Education</h3>
-        <h4 class="school">Zhytomyr cooperative college of business and law</h4>
-        <h5 class="profession">Programing</h5>
-        <span class="work-period">December 2006 - June 2010 <span class="line">|</span> Ukraine</span>
-      </div>
-    </div>
-  </div>
+  <div class="box"><p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iusto quae iste culpa neque ea qui rem. Magnam quis magni fugit incidunt ipsam quo illum, tenetur necessitatibus autem quaerat amet ut?</p></div>
+  <header class="header">
+    <a href="#company" class="link-logo-h"><span class="web">Web</span>Studio</a>
+    <nav>
+      <ul class="menu">
+        <li class="menu-item"><a href="#studio" class="menu-nav">Студия</a></li>
+        <li class="menu-item"><a href="portfolio.html" class="menu-nav">Портфолио</a></li>
+        <li class="menu-item"><a href="#contacts" class="menu-nav">Контакты</a></li>
+      </ul>
+      <ul>
+        <li><a href="mailto:info@devstudio.com" class="e-address">info@devstudio.com</a></li>
+        <li><a href="tel:+380961111111" class="e-address">+38 096 111 11 11</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section class="hero">
+      <h1 class="hero-title">эффективные решения для вашего бизнеса</h1>
+      <button class="btn">Заказать услугу</button>
+    </section>
+    <section class="CompanyValues">
+      <h2 hidden>Скрытый Заголовок</h2>
+      <ul>
+        <li>
+          <h3 class="features">Внимание к деталям</h3>
+          <p class="main-text">
+            Идейные соображения, а также начало повседневной работы по
+            формированию позиции.
+          </p>
+        </li>
+        <li>
+          <h3 class="features">Пунктуальность</h3>
+          <p class="main-text">
+            Задача организации, в особенности же рамки и место обучения кадров
+            влечет за собой.
+          </p>
+        </li>
+        <li>
+          <h3 class="features">Планирование</h3>
+          <p class="main-text">
+            Равным образом консультация с широким активом в значительной степени
+            обуславливает.
+          </p>
+        </li>
+        <li>
+          <h3 class="features">современные технологии</h3>
+          <p class="main-text">
+            Значимость этих проблем настолько очевидна, что реализация плановых
+            заданий.
+          </p>
+        </li>
+      </ul>
+    </section>
+    <section>
+      <h2 class="section-title">Чем мы занимаемся</h2>
+      <ul>
+        <li><img src="images/img(7).jpg" width="370" height="294" alt="ПК" /></li>
+        <li><img src="images/img(1).jpg" width="370" height="294" alt="Лептоп" /></li>
+        <li><img src="images/img(2).jpg" width="370" height="294" alt="Таблет" /></li>
+      </ul>
+    </section>
+    <section>
+      <h2 class="section-title">Наша команда</h2>
+      <ul class="team">
+        <div class="img">
+        <li><img src="images/img(3).jpg" width="270" height="260" alt="Игорь Демьяненко" />
+          <h3 class="features">Игорь Демьяненко</h3>
+          <p class="main-text" lang="en">Product Designer</p>
+          </div>
+        </li>
+        <li><img src="images/img(4).jpg" width="270" height="260" alt="Ольга Репина" />
+          <h3 class="features">Ольга Репина</h3>
+          <p class="main-text" lang="en">Frontend Developer</p>
+        </li>
+        <li><img src="images/img(5).jpg" width="270" height="260" alt="Николай тарасов" />
+          <h3 class="features">Николай тарасов</h3>
+          <p class="main-text" lang="en">Marketing</p>
+        </li>
+        <li><img src="images/img(6).jpg" width="270" height="260" alt="Михаил Ермаков" />
+          <h3 class="features">Михаил Ермаков</h3>
+          <p class="main-text" lang="en">UI Designer</p>
+        </li>
+      </ul>
+    </section>
+  </main>
+  <footer class="basement">
+    <a href="#company" class="link-logo-f"><span class="web">Web</span>Studio</a>
+    <address class="address-accent">
+      <ul>
+        <li><a href="https://goo.gl/maps/876GTmh62noZVfSe7" target="blank" rel="noopener noreferer"
+            class="link-address">г. Киев, пр-т Леси Украинки, 26
+          </a></li>
+        <li><a href="mailto:" class="link-footer">info@example.com</a></li>
+        <li><a href="tel:+38099111111" class="link-footer">+38 099 111 11 1</a></li>
+      </ul>
+    </address>
+  </footer>
 </body>
 
 </html>
